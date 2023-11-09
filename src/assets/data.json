@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Gaseosa",
+      "description": "Gaseosa de litro y medio",
+      "price": 800,
+      "image": "product1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fideos",
+      "description": "Fideos cabello de angel",
+      "price": 250,
+      "image": "product2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dulce",
+      "description": "Dulce de damazco 500grs",
+      "price": 500,
+      "image": "product3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Detergente",
+      "description": "Desengrasante por 500ml",
+      "price": 600,
+      "image": "product4.jpg"
+    }
+  ]
+  
+  

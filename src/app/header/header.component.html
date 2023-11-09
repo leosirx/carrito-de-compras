@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <div class="navbar-logo">
+    </div>
+    <div class="navbar-title">App Carrito de compras</div>
+    <div class="navbar-cart" (click)="onToggleCart()">
+      <div class="navbar-cart-items" *ngIf="(myCart$ | async)?.length">
+        <p>{{ (myCart$ | async)?.length }}</p>
+      </div>
+      <i class="fa-solid fa-cart-shopping" style="cursor: pointer;"></i>
+    </div>
+  </nav>
+  <div class="cart" [ngClass]="{ show: viewCart }">
+    <app-cart></app-cart>
+  </div>
+  

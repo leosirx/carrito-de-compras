@@ -1,0 +1,57 @@
+
+.product{
+    flex-basis:20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:0.1px solid #a5a5a4;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    
+    box-shadow: 10px -1px 116px -62px rgb(90, 94, 93);
+    &-header{
+        flex-basis:30%;
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        h3{
+            text-align: center;
+        }
+    }
+    &-body{
+        flex-basis:50%;
+    }
+    &-footer{
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-basis: 20%;
+        &-button{
+            cursor: pointer;
+            border: none;
+            border-radius: 0.25rem;
+            background-color: #72bdff; 
+            color:rgb(0, 0, 0);
+            width: 50%;
+            margin-top: 20%;
+            border: 1px solid;
+        }
+        &-button:hover{
+            color:rgb(0, 0, 0);
+            background-color: #96ceff;
+
+        }
+    }
+}
+.product:hover{
+    scale:(1.05);
+    cursor: pointer;
+}
+
+.product-body{
+    margin-top: 30%;
+
+}
